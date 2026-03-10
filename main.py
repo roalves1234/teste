@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/", response_class=PlainTextResponse)
 def hello_world() -> str:
-    return "Olá mundo..."
+    return "Olá mundo de Deus..."
