@@ -5,8 +5,8 @@ Este projeto sobe um servidor web em Python com FastAPI que responde `Olá mundo
 ## Rodar localmente (sem Docker)
 
 ```bash
-pip install -r requirements.txt
-uvicorn main:app --host 0.0.0.0 --port 5000
+uv sync
+uv run uvicorn main:app --host 0.0.0.0 --port 5000
 ```
 
 Acesse: http://localhost:5000
